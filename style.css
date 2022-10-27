@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 100px;
+}
+
+p {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 0 50px rgb(8, 0, 0);
+}
+
+p span {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+/*1- by table */
+/* 
+p {
+  display: table;
+}
+
+p span {
+  padding: 10px;
+  background: rgb(251, 5, 5);
+} */
+
+/* -------------------------------------------------- */
+
+/*2- by positions */
+
+/* p {
+  position: relative;
+}
+
+p span {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform:translateY(-50) ;
+  -webkit-transform:translateY(-50) ;
+  -moz-transform:translateY(-50) ;
+  -ms-transform:translateY(-50) ;
+  -o-transform:translateY(-50) ;
+} */
+/* -------------------------------------------------- */
+
+/* 3- by flexbox-1 */
+/* p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* -------------------------------------------------- */
+
+/* 4- by flexbox-2 */
+/* p {
+  display: flex;
+}
+p span {
+  margin: auto;
+} */
+/* -------------------------------------------------- */
+
+/* 5- by grid-1*/
+
+/* p {
+    display: grid;
+   align-content: center;
+    align-items: center;
+} */
+/* -------------------------------------------------- */
+
+/* 6- by grid-2*/
+
+/* p {
+    display: grid;
+   place-items: center;
+} */
+
+/* -------------------------------------------------- */
+
+/* 7- by grid-3*/
+
+p {
+    display: grid;
+  
+}
+p span {
+    margin:auto;
+}
+
+
